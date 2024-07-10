@@ -1,5 +1,5 @@
 //
-//  Notifications.swift
+//  ExploreView.swift
 //  TwitterCloneiOS
 //
 //  Created by Сергей Дарьин on 10.07.2024.
@@ -7,12 +7,12 @@
 
 import SwiftUI
 
-struct Notifications: View {
+struct ExploreView: View {
     var body: some View {
-        Text("Your notifications would be here here..")
+        Text("Explore view")
     }
 }
 
 #Preview {
-    Notifications()
+    ExploreView()
 }

@@ -1,5 +1,5 @@
 //
-//  Home.swift
+//  MessagesView.swift
 //  TwitterCloneiOS
 //
 //  Created by Сергей Дарьин on 10.07.2024.
@@ -7,12 +7,12 @@
 
 import SwiftUI
 
-struct Home: View {
+struct MessagesView: View {
     var body: some View {
-        Text("Lorem ipsum")
+        Text("Messages")
     }
 }
 
 #Preview {
-    Home()
+    MessagesView()
 }
