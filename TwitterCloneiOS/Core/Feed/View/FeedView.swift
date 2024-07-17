@@ -27,8 +27,8 @@ struct FeedView: View {
                     .renderingMode(.template)
                     .frame(width: 28, height: 28)
                     .padding()
-                    .fullScreenCover(isPresented: $showNewTweetView, onDismiss: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=On Dismiss@*/{}/*@END_MENU_TOKEN@*/, content: {
-                        Text("New tweet view")
+                    .fullScreenCover(isPresented: $showNewTweetView, content: {
+                        NewTweetView()
                     })
             }
             .background(Color(.systemBlue))
